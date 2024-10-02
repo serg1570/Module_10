@@ -54,4 +54,4 @@ time2_res = time2_stop - time2_start
 print(f'Время работы потоков {time2_res}')
 
 # Вывод разницы начала и конца работы потоков
-print(f'Использование потоков быстрее функций на {time_res-time2_res} секунд')
+print(f'Потоки быстрее функций на {time_res-time2_res} секунд')
